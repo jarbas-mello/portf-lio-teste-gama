@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans HK", sans-serif;
+  color: #c20000;
+  list-style: none;
+}
+.container {
+  text-align: center;
+  margin-top: -50px;
+}
+.container .name h1 {
+  font-size: 60px;
+  margin: 100px 0px 0px 0px;
+}
+.container .name h5 {
+  font-size: 25px;
+  margin: 0px 0px 20px 0px;
+}
+#arrow {
+  font-size: 35px;
+  transition: all 300ms ease-out;
+  cursor: pointer;
+  margin: 0 0;
+  padding: 0 auto;
+}
+
+#animation {
+  transition: 300ms;
+}
+.active {
+  display: block !important;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: 300ms;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 15px ridge #c20000;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  border: 8px solid #c20000;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #000;
+  margin: 40px;
+  transition: all 300ms ease-out;
+  cursor: pointer;
+  font-size: medium;
+}
+
+header ul li:hover {
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid #c20000;
+  background-color: #e6e6e6;
+  font-size: larger;
+}
+header div img {
+  max-width: 150px;
+  min-width: none;
+  border: solid 5px #c20000;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: url(./empty-dark-room-modern-futuristic-sci-fi-background.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+#about {
+  max-height: 700px;
+  max-width: 600px;
+  margin: 20px auto 20px auto;
+  text-decoration: flex;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.form {
+  width: 20%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 30px;
+}
+.form action {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.form input {
+  width: 60%;
+  border: 10px #c20000;
+  border-radius: 5px 0px 0px 5px;
+  padding: 5px 10px;
+  font-size: medium;
+}
+
+.form button {
+  margin-left: -3px;
+  width: 27%;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #b4b4b4;
+  transition: all 300ms ease-out;
+  cursor: pointer;
+  padding: 5px 5px;
+  font-size: medium;
+}
+.form button:hover {
+  width: 25%;
+  border: 10px #c20000;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #e6e6e6;
+  transition: all 300ms ease-out;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: medium;
+}
+.form div p {
+  font-family: "Noto Sans HK", sans-serif;
+  color: #e6e6e6;
+  margin: 20px auto 20px auto;
+  padding: 0 auto;
+  background-size: 10%;
+  background-repeat: no-repeat;
+  font-size: larger;
+}
+#about div p {
+  color: #e6e6e6;
+}
+@media screen and (max-width: 414px) {
+  .container {
+    text-align: center;
+    margin-top: -50px;
+  }
+  .container .name h1 {
+    font-size: 50px;
+    margin: 100px 0px 0px 0px;
+  }
+  .container .name h5 {
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+  }
+  #arrow {
+    font-size: 20 px;
+    transition: all 300ms ease-out;
+    cursor: pointer;
+    margin: 0 0;
+    padding: 0 auto;
+  }
+
+  #animation {
+    transition: 300ms;
+  }
+  .active {
+    display: block !important;
+  }
+
+  .rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+  }
+  #about {
+    max-height: 700px;
+    max-width: 600px;
+    margin: 20px auto 20px auto;
+    text-decoration: flex;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  .form action {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  .form input {
+    width: 60%;
+    border: 10px #c20000;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px 10px;
+    font-size: medium;
+  }
+
+  .form button {
+    margin-left: -3px;
+    width: 27%;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #b4b4b4;
+    transition: all 300ms ease-out;
+    cursor: pointer;
+    padding: 5px 5px;
+    font-size: medium;
+  }
+  .form button:hover {
+    width: 25%;
+    border: 10px #c20000;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #e6e6e6;
+    transition: all 300ms ease-out;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: medium;
+  }
+  .form div p {
+    font-family: "Noto Sans HK", sans-serif;
+    color: #e6e6e6;
+    margin: 20px auto 20px auto;
+    padding: 0 auto;
+    background-size: 10%;
+    background-repeat: no-repeat;
+    font-size: larger;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 15px ridge #c20000;
+  }
+  header ul {
+    display: flex;
+  }
+  header ul li {
+    padding: 5px;
+    font-size: 5px;
+    text-align: center;
+    border: 8px solid #c20000;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #000;
+    margin: 10px;
+    transition: all 300ms ease-out;
+    cursor: pointer;
+    font-size: medium;
+  }
+}
+header div img {
+  max-width: 100px;
+  min-width: 100px;
+}
